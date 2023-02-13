@@ -1,0 +1,672 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Üsame Fethullah AVCI</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="6ada577a-2bfb-4f4e-95b9-d521ef649601" class="page mono"><header><h1 class="page-title">Üsame Fethullah AVCI</h1></header><div class="page-body"><div id="80f1d0b1-9308-46b3-8c3a-2366cf43046c" class="column-list"></div><div id="487f6121-e4c4-4218-a588-26c3ae1f9b1c" class="column-list"><div id="4614c867-54fb-4e90-9569-36f81e3da8fb" style="width:18.75%" class="column"><figure id="9668591f-e1b6-4b74-a674-5c5d36e196cb" class="image"><a href="peep.svg"><img style="width:336px" src="peep.svg"/></a></figure></div><div id="b0bfcbf1-a673-4919-816b-44e3f7e28264" style="width:81.25%" class="column"><blockquote id="6964239e-5dfd-4f47-accd-97b34fc59585" class="block-color-orange_background"><mark class="highlight-orange"><strong>Development guy (7 yrs)
+Software engineer, previously </strong></mark><a href="https://www.linkedin.com/company/odastudioapp">@odastudioapp</a></blockquote><p id="b0210211-ec4b-4a15-91eb-ea9d38d9d379" class="">✉️ <a href="mailto:usameavci@gmail.com">usameavci@gmail.com</a> </p><p id="37bca0c1-f7ab-49ef-a76f-315345c0370a" class="">☎️ <a href="tel:+905374919101">+905374919101</a></p><p id="e9ce3458-d389-4533-a10f-16940f9b6c90" class="">🖥️ <a href="https://github.com/usameavci">github</a> 📝 <a href="https://www.linkedin.com/in/usamefethullahavci/">linkedin</a></p></div></div><div id="73ae61fc-6b6e-4aea-9805-b604afef6413" class="column-list"><div id="e76eaa06-e4a7-4366-a347-e7203db51643" style="width:50%" class="column"><h1 id="4cfecee6-7330-4c4e-90a2-499ce2138198" class=""><mark class="highlight-orange">👨‍💻 Work Experience</mark></h1><hr id="3752d6bf-e256-4025-8a56-d39b7f418c1b"/><h2 id="da09c294-454f-4df6-83ed-d0400d15fe6e" class=""><strong>Senior Software Developer, </strong><a href="https://www.linkedin.com/company/odastudioapp/"><strong>Oda Studio</strong></a></h2><p id="c67451c1-f873-4537-b6f4-9a5083dc8a12" class="block-color-gray">Remote<em> (Jan 2022 - Jan 2023)</em></p><ul id="5052a16f-4498-4448-acd4-4690f28d06be" class="bulleted-list"><li style="list-style-type:disc">Mission: We automated our customer submission process &amp; production pipeline</li></ul><ul id="aec680d2-a2dd-4b0f-a81d-689e0aa6edfb" class="bulleted-list"><li style="list-style-type:disc">API development in Nest.js &amp; AWS Chalice, Creating internal dashboards in Retool and Order delivery with no-code solutions</li></ul><h3 id="93d86fd9-f6ca-4aba-b984-0ab04a5722f5" class=""><strong>Senior Software Developer</strong>, <a href="https://www.linkedin.com/company/zingat/">Zingat</a></h3><p id="ad4a3a21-a5de-4a8b-b396-c8b544ed9da9" class="block-color-gray">İstanbul/Remote<em> (Dec 2019 - Apr 2022)</em></p><h3 id="f66f67ff-941a-40dd-823b-9b7f686dcb4a" class=""><strong>Software Developer</strong>, <a href="https://www.linkedin.com/company/zingat/">Zingat</a></h3><p id="54e87de5-f875-4a85-ba2e-307e19d39db0" class="block-color-gray">İstanbul <em>(Nov 2018 - Dec 2019)</em></p><h3 id="1a645040-8be5-4a2f-9c18-6e8319982969" class=""><strong>Full-stack Developer</strong>, <a href="https://www.linkedin.com/company/emlaktown-gmbh/">Emlaktown</a></h3><p id="c2eb21f8-2427-44ee-8d1d-049440bd06c9" class="block-color-gray">İstanbul <em>(Dec 2017 - Sep 2018)</em></p><h3 id="f8f4a1ff-b396-48c9-948c-01e313ab5ceb" class=""><strong>Full-stack Developer</strong>, <a href="https://www.linkedin.com/company/gaaraj/">Gaaraj</a></h3><p id="a1e2d884-3f68-46ce-bff3-417a30cd492c" class="block-color-gray">İstanbul <em>(Oct 2015 - Aug 2017)</em></p><p id="4c4bf009-2adb-4b8d-8999-46b762ce6acb" class="">
+</p></div><div id="55433af1-4ab9-4377-a7a1-ccb7817ce247" style="width:50%" class="column"><h1 id="2c965737-dbf1-44f3-a68c-b035cc172497" class=""><mark class="highlight-orange">🛠 Skills</mark></h1><hr id="484f9a99-d1aa-4605-a95b-98b85e75c3be"/><h2 id="44608ce0-e3f1-43e4-b410-8caf0942f1f1" class="">Programming</h2><p id="0b024f03-dc7a-4598-85a3-5398214b5f03" class="">Javascript, Typescript, PHP, Python, OOP, FP, SQL, CI/CD, AWS(SQS, DynamoDB, RDS, EC2, S3, Lambda, CloudfFront)</p><h2 id="095d0cf4-68b6-4f92-947b-24279d212371" class="">Software</h2><ul id="8972957c-6381-4783-bcfc-dd642fbf32e8" class="bulleted-list"><li style="list-style-type:disc"><strong>Tools</strong> : Git, Jira, Asana, Linear, Datalore, Colab, </li></ul><ul id="3c4d343b-fdfd-4132-bd35-5d451211f84f" class="bulleted-list"><li style="list-style-type:disc"><strong>Search &amp; Query:</strong> Elasticsearch, Typesense, Algolia</li></ul><ul id="b6b524d3-8cee-4044-9b93-be4080858384" class="bulleted-list"><li style="list-style-type:disc"><strong>No-code</strong> : Pipedream, Zapier, AWS Step Functions, Retool, Hasura</li></ul><ul id="3ad2bf05-7e80-420e-a514-27ce21b2c8ef" class="bulleted-list"><li style="list-style-type:disc"><strong>Design</strong> : Figma, DB Diagram</li></ul><h2 id="f5fcf4f2-63d3-4d04-8310-58889177253d" class="">Languages</h2><p id="d98c6f7f-646e-4741-82ab-17cb75e80f3a" class="">🇹🇷 native / 🇬🇧 pre-intermediate(business)</p><h1 id="9359837c-e1ac-4d47-b9a7-b6f965d99093" class=""><mark class="highlight-orange">📚 Education</mark></h1><hr id="6893e29d-56fc-4199-854d-ae8883a398ad"/><h2 id="26161b20-be69-4a60-82aa-f4c918216e2c" class="">Süleyman Demirel University</h2><p id="5d10ac94-337a-4aaa-b6d5-d6496aac6234" class="block-color-gray">Isparta<em> (2013 - 2015)</em></p></div></div><h1 id="ef00d9b5-1cc6-488b-b34d-f68025b9891a" class="block-color-blue"><mark class="highlight-orange">🍭 Other</mark></h1><hr id="dd40fabe-ed50-4e96-a035-26d18a208169"/><h3 id="c53ccd78-6d12-4726-8f15-719e58baa558" class="">Article &amp; Talks</h3><div id="9cfcae78-2e0c-4a23-8cb7-063856e2a24a" class="column-list"><div id="92dff51c-55c3-499e-a0c9-2d48dff3a02e" style="width:50%" class="column"><figure id="b15b7b2b-5db7-44f2-82c6-7d85e0cec9b0"><a href="https://labs.zingat.com/eski-k%C3%B6ye-yeni-adet-pagespeed-f2c5f7b9ed34" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Eski Köye Yeni Adet - PageSpeed</div><div class="bookmark-description">Zaman ilerledikçe yeni fikirler, yeni yaklaşımlar, yeni teknolojiler, yeni kütüphaneler çıkıyor. Ben de dahil olmak üzere her yazılımcı bu yenilikleri projelerinde kullanmak istiyor. Yeni bir projeye başlarken rahatlıkla bu yenilikleri kullanabiliyoruz. Peki ya uzun süredir geliştirilen bir proje üzerinde çalışıyorsak?</div></div><div class="bookmark-href"><img src="https://miro.medium.com/fit/c/256/256/1*pUVwAqjSJ47BmA7QreUgTw.png" class="icon bookmark-icon"/>https://labs.zingat.com/eski-k%C3%B6ye-yeni-adet-pagespeed-f2c5f7b9ed34</div></div><img src="https://miro.medium.com/max/1200/1*bLw_JG55954aR2HRJLVZVQ.jpeg" class="bookmark-image"/></a></figure><p id="0ac12af4-f53e-4f2c-80c7-4af72c92de26" class=""><a href="https://www.youtube.com/watch?v=PX2JZkO6I6k">https://www.youtube.com/watch?v=PX2JZkO6I6k</a></p></div><div id="eda51443-38c5-4b9b-820c-00ad96b063c2" style="width:50%" class="column"><figure id="76fd4d9e-70af-495e-a66e-13babfe6fb95"><a href="https://labs.zingat.com/ssr-olmasa-olmaz-mi-95bb60fcc204" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">SSR olmasa olmaz mı?</div><div class="bookmark-description">Bildiğimiz üzere SPA (Single Page Application) &#x27;in hayatımıza girmesi ile birçok güzellik ve kolaylıktan faydalanabilir duruma geldik. Fakat bununla birlikte bazı problemler de gün yüzüne çıkmış oldu. Bunların başında SEO (Search Engine Optimization) ve SMO (Social Media Optimization), Page Speed ve kullanıcı deneyimi geliyor.</div></div><div class="bookmark-href"><img src="https://miro.medium.com/fit/c/256/256/1*pUVwAqjSJ47BmA7QreUgTw.png" class="icon bookmark-icon"/>https://labs.zingat.com/ssr-olmasa-olmaz-mi-95bb60fcc204</div></div><img src="https://miro.medium.com/max/1200/1*_m8OLSKSQ8oqOoQrqfZ9Zw.jpeg" class="bookmark-image"/></a></figure><p id="c14efb55-2f96-4fb1-aa3a-7ca673cc8c80" class=""><a href="https://www.youtube.com/watch?v=xsIERNrxqm4">https://www.youtube.com/watch?v=xsIERNrxqm4</a></p></div></div><h3 id="7a90f9a0-4e24-476b-ba80-3ac1aea44214" class="">Interests</h3><p id="1561ccc1-7718-4efa-84ae-6de874306143" class="">Drum 🥁 / SE Movie&amp;Dramas 🎥 / Fitness 🏋️‍♀️ / Coffee Addict <strong>☕ </strong>/ Car Trip-per 🚗</p><p id="74582f9f-4768-4024-895d-fd5b4a9bd737" class="">
+</p></div></article></body></html>
