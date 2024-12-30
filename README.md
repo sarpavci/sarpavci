@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Üsame</h1>
+<h1 align="center">Hi 👋, I'm Sarp</h1>
 <h3 align="center">A passionate software developer from Turkey. These days, I'm especially interested in devops and system infrastructures.</h3>
 
 <p align="left"><img src="https://github-profile-trophy.vercel.app/?username=usameavci&no-frame=true&column=10" alt="usameavci" /></p>
