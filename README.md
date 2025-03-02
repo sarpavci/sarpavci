@@ -9,14 +9,14 @@
 
 - You can ask me questions about **js, php and anything else development related**
 
-- 📫 How to reach me **sarpavci@gmail.com**
+- 📫 How to reach me **sarp.avci@icloud.com**
 
-- 📄 Know about my experiences [https://www.linkedin.com/in/usamefethullahavci/](https://www.linkedin.com/in/usamefethullahavci/)
+- 📄 Know about my experiences [https://www.linkedin.com/in/sarpavci/](https://www.linkedin.com/in/sarpavci/)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/usamefethullahavci" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="usamefethullahavci" height="30" width="40" /></a>
-<a href="https://medium.com/@usamefethullah.avci" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@usamefethullah.avci" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/sarpavci" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sarpavci" height="30" width="40" /></a>
+<a href="https://medium.com/@sarpavci" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@sarpavci" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
